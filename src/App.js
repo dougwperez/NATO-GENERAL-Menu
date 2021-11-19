@@ -11,6 +11,7 @@ function App() {
         <img src={natoLogo} alt="nato-logo" className="nato-logo" />
         <h1>NATO GENERAL </h1>
         <video
+          loop
           style={{
             alignSelf: "center",
             borderRadius: 20,
@@ -41,7 +42,16 @@ function App() {
           <div class="btn" onclick="replace()">
             <div class="in_btn">Pick Scenario</div>
           </div>
-          <div class="btn" onclick="replace()">
+          <div
+            class="btn"
+            onClick={(e) => {
+              e.preventDefault();
+              window.open(
+                "https://nato-general-intel-reports.fandom.com/wiki/Nato_General_Intel_Reports_Wiki",
+                "_blank"
+              );
+            }}
+          >
             <div class="in_btn">Official Wiki</div>
           </div>
         </div>
