@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import ReactPlayer from "react-player";
@@ -5,6 +6,14 @@ import introVideo from "./yt5s.com-Fulda Gap(360p).mp4";
 import natoLogo from "./pngwing.com.png";
 
 function App() {
+  const [vidUrls, setVidUrls] = useState([]);
+
+  // const vidUrlList = []
+
+  // useEffect(() => {
+
+  // }, []);
+
   return (
     <div className="App">
       <header className="App-header">

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap");
 
 .App {
   text-align: center;
@@ -57,7 +58,6 @@ body {
 }
 h1 {
   z-index: 2;
-  font-family: "Press Start 2P", cursive;
   font-size: 70px;
   margin-top: -10px;
   font-family: "Black Ops One", cursive;
@@ -80,12 +80,16 @@ h1 {
 
 .btn {
   position: relative;
-  font-size: 27px;
+  font-size: 40px;
+  letter-spacing: 2px;
 
   background-color: darkgrey;
   margin-top: 20px;
   margin-right: 2px;
   padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
   height: 50px;
   /* width: 200px; */
   border-style: solid;
@@ -99,9 +103,10 @@ h1 {
   box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
 }
 .in_btn {
-  padding: 20px;
+  /* padding: 20px; */
+
   text-align: center;
-  font-family: "Press Start 2P", cursive;
+  font-family: "Quantico", sans-serif;
   user-select: none;
   -moz-user-select: none;
   -khtml-user-select: none;
