@@ -72,7 +72,7 @@ h1 {
 .menu-panel {
   display: flex;
   z-index: 2;
-  margin-top: ;
+  margin-top: 7px;
   padding-top: 25px;
 }
 
@@ -103,8 +103,6 @@ h1 {
   box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
 }
 .in_btn {
-  /* padding: 20px; */
-
   text-align: center;
   font-family: "Quantico", sans-serif;
   user-select: none;
