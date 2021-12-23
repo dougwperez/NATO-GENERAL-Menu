@@ -46,7 +46,7 @@ function App() {
                 "https://dougwperez.github.io/scenario-builder/";
             }}
           >
-            <div class="in_btn">Game Editor</div>
+            <div class="in_btn">Map Editor</div>
           </div>
           <div class="btn" onclick="replace()">
             <div class="in_btn">Pick Scenario</div>
@@ -62,6 +62,10 @@ function App() {
             }}
           >
             <div class="in_btn">Official Wiki</div>
+            {/* TODO ADD PROFILE SECTION with unlockable badges, video reels, and game stats */}
+            {/* <div class="btn" onclick="replace()">
+              <div class="in_btn">Profile</div>
+            </div> */}
           </div>
         </div>
       </header>
